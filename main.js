@@ -49,23 +49,26 @@ function playRound(playerSelection,computerSelection){
 //Write a NEW function called game(). Call the playRound function inside of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
 //function game should playRound 5 times, and keeps score, score is at
 
-function game(){
-    for(let i = 0;i<5;i++){
+// function game(){
+//     for(let i = 0;i<5;i++){
 
-        let playerChoice = prompt('Your Choice?').toLowerCase()
-        console.log(playRound(playerChoice,getComputerChoice()))
-        console.log(`{player's score is ${playerScore}}`)
-        console.log(`{computer's score is ${computerScore}}`)
+//         let playerChoice = prompt('Your Choice?').toLowerCase()
+//         console.log(playRound(playerChoice,getComputerChoice()))
+//         console.log(`{player's score is ${playerScore}}`)
+//         console.log(`{computer's score is ${computerScore}}`)
       
                 
         
-    }
-    if(playerScore >= 3){
-        return 'You won the best of 5!:)'
-    }else return 'You lost the best of 5! :('
+//     }
+//     if(playerScore >= 3){
+//         return 'You won the best of 5!:)'
+//     }else return 'You lost the best of 5! :('
 
-}
+// }
 
 // const playerSelection = "rock";
 // const computerSelection = getComputerChoice();
 // console.log(playRound(playerSelection, computerSelection));
+
+const buttons = document.querySelectorAll('button')
+buttons.forEach( button => button.addEventListener('click',) )
