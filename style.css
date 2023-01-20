@@ -34,8 +34,33 @@ img{
     font-size: 40px;
     
 }
+.threeChoices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.button{
+    border: solid 3px rgb(199, 35, 35);
+}
 
 .rockPic{
-    width: 90px;
-    height: auto;
+    width: auto;
+    height: 100px;
+    padding: 20px;
+}
+
+.resultSection{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.resultPara{
+    font-family: 'Titan One';
+    font-size: 20px;
+}
+
+.scoreboard{
+    font-size: 20px;
 }
